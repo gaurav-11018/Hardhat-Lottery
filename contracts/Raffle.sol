@@ -8,6 +8,7 @@ error Raffle__SendMoreToEnterRaffle();
 contract Raffle is VRFConsumerBaseV2 {
     uint256 private i_entranceFee;
     address payable[] private s_players;
+    
 
     event RaffleEnter(address indexed s_player);
 
